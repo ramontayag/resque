@@ -1,3 +1,7 @@
+## 1.20.2 (2012-05-26)
+
+* Removes loading of Resque::Launcher in lib/resque.rb - it was causing errors, and the launcher is only needed in the rake file
+
 ## 1.20.1 (2012-05-26)
 
 * Merge in changes by yaauie to create PIDFILE before Rails initialization (https://github.com/ramontayag/resque/commit/cd068717da70c307e685ebd1c8445ae2ee2a4f2c)
