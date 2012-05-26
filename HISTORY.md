@@ -1,3 +1,9 @@
+## 1.20.1 (2012-05-26)
+
+* Merge in changes by yaauie to create PIDFILE before Rails initialization (https://github.com/ramontayag/resque/commit/cd068717da70c307e685ebd1c8445ae2ee2a4f2c)
+* Moves `rake resque:work` logic in `Resque::Launcher` for easier testing
+* Creates initial `resque/launcher_test`
+
 ## 1.20.0 (2012-02-17)
 
 * Fixed demos for ruby 1.9 (@BMorearty, #445)
