@@ -16,7 +16,6 @@ require 'resque/queue'
 require 'resque/multi_queue'
 require 'resque/coder'
 require 'resque/multi_json_coder'
-require 'resque/launcher'
 
 module Resque
   include Helpers
