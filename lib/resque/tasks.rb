@@ -1,5 +1,6 @@
 # require 'resque/tasks'
 # will give you the resque tasks
+require 'resque/launcher'
 
 namespace :resque do
   task :setup
