@@ -16,6 +16,7 @@ describe "Resque::Launcher" do
         ENV.delete('PIDFILE')
         ENV.delete('QUEUE')
         FileUtils.rm('tmp/test.pid')
+        Resque::Worker.any_instance.unstub(:work)
       end
 
       it 'writes a pid file' do
