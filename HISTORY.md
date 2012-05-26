@@ -1,3 +1,7 @@
+## 1.20.3 (2012-05-26)
+
+* Loads resque/launcher in rake task
+
 ## 1.20.2 (2012-05-26)
 
 * Removes loading of Resque::Launcher in lib/resque.rb - it was causing errors, and the launcher is only needed in the rake file
